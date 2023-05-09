@@ -8,7 +8,6 @@ const Navbar = () => {
   const handleclick = () => {
     setDis(!dis)
     setIsicon(!isicon)
-    
   }
   return (
     <div>

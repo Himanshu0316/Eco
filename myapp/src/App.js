@@ -1,4 +1,4 @@
-import './App.css';
+import * as React from 'react';
 import Main from './learn/Main';
 function App() {
   return (

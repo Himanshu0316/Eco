@@ -97,3 +97,23 @@
 .Home{
     margin-top: 50px; 
 }
+
+ @media (max-width:700px){
+    .Navbar{
+        position: absolute;
+        top:100%; left:0; right: 0;
+        background-color: white;
+        border-top: 1px solid rgba(0, 0, 0, 0.1)
+    }
+    .Navbar ul li {
+        width: 100%;
+    }
+    .Navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    .Navbar ul li ul li ul{
+       left: 0;
+        width: 100%;
+    }
+ }
